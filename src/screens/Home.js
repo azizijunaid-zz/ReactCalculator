@@ -6,10 +6,12 @@ import Input from '../components/Input';
 export default class Home extends Component {
     render() {
         return (
+
             <div className="main">
-                 <div className="board-row">
+
+                <div className="board-row">
                     <Input />
-                 </div>
+                </div>
                 <div className="board-row">
                     <CustomButton text="7" />
                     <CustomButton text="8" />
@@ -38,8 +40,8 @@ export default class Home extends Component {
                     <CustomButton text="." />
                     <CustomButton text="=" />
                 </div>
-               
-             
+
+
             </div>
         )
     }
