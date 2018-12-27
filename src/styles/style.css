@@ -1,0 +1,38 @@
+.square {
+    background-image: linear-gradient(#000, #282c34);    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    /* font-weight: bold; */
+    line-height: 34px;
+    height: 50px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+    color: #61dafb;
+  }
+  .square:hover{
+      cursor: pointer
+  }
+
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  .input-number{
+    padding: 14px;
+    border: 0;
+    background-image: linear-gradient(#b1aeae, #f8f7f7);
+  }
+
+  .main{
+    -webkit-box-shadow: 0px 8px 23px -8px rgba(195,205,212,1);
+
+    -moz-box-shadow: 0px 8px 23px -8px rgba(195,205,212,1);
+
+    box-shadow: 0px 8px 23px -8px rgba(195,205,212,1);
+  }
+
